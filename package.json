@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "commander": "^9.4.1",
+    "node": "^19.0.0"
+  },
+  "name": "nodejs-homework-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszBachor/Nodejs-homework-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateuszBachor/Nodejs-homework-01/issues"
+  },
+  "homepage": "https://github.com/MateuszBachor/Nodejs-homework-01#readme",
+  "description": ""
+}
