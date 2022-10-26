@@ -52,7 +52,7 @@ function listContacts() {
     .then(data =>{
         const contactsList=JSON.parse(data.toString())
         const newContact={
-            id:(contactsList.length+1).toString(),
+            id:contactsList.length+1,
             name,
             email,
             phone
